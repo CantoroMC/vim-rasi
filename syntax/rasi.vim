@@ -45,7 +45,7 @@ syn keyword rasiTag active urgent
 " syn keyword rasi
 
 syn keyword rasiInherit inherit children
-syn match rasiGlobPropRef "@\w*"
+syn match rasiGlobPropRef "@\S*"
 
 syn keyword rasiTextStyle bold italic stikethrough underline small caps
 syn keyword rasiLineStyle dash solid
